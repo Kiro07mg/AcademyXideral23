@@ -19,15 +19,16 @@ public class Registro {
             instancia = new Registro();
         return instancia;
     }
-    /*
-     * 
-     */
     
-    //Agregamos ventas
+    /*
+     * Metodo para agregar ventas
+     */
     public void agregarVenta(String producto, int cantidad) {
         listado.add( new Ventas(producto, cantidad) );
     }
-    
+    /*
+     * modificamos el comportamiento
+     * */
     @Override
     public String toString() {
         String s = "\n\nHISTORIAL DE VENTAS REALIZADAS."

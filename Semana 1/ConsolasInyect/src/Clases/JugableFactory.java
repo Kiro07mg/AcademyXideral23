@@ -1,9 +1,15 @@
 package Clases;
 
 import Interfaz.Jugable;
-
+/*
+ * Vendria a ser nuertro inyector de dependencias
+ * es la unica que conocera como se instancia cada uno de los objetos
+ * */
 public class JugableFactory {
-	public enum tipoDeJugable{PC,Consola}
+	/*
+	 * limitamos la creacion de objetos
+	 * */
+	public enum tipoDeJugable{PC,CONSOLA}
 	
 	/*
 	 * creamos la abstraccion de los objetos

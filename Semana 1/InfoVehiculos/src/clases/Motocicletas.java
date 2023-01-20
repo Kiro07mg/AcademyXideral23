@@ -9,7 +9,10 @@ public class Motocicletas extends AbsInfoVehiculo{
 		this.distancia = distancia;
 		this.tiempo = tiempo;
 	}
-
+	
+	/*
+	 * Creamos un metodo para sacar km/h
+	 * */
 	public int velocidad() {
 		return distancia / tiempo;
 	}
